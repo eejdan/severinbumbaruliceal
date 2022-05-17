@@ -1,0 +1,34 @@
+[
+    {
+        "displayName":"Universitatea Babes-Bolyai",
+        "desc":"Universitatea Babeș-Bolyai a devenit, în timp, emblema de succes a Clujului și a țării. Este o instituție vie, dinamică și constructivă, bine integrată în societate și cu privirea ațintită spre viitor, pe care poate să-l proiecteze, să-l pregătească și să îl construiască.",
+        "shortFaculties":[
+            "Facultatea de matematica si informatica",
+            "Facultatea de inginerie",
+            "Facultatea de fizica",
+            "Facultatea de drept"
+       ],
+        "city":"Cluj"
+    }
+    ,
+    {"displayName":"Universitatea Alexndru Ioan Cuza",
+     "desc":"Misiunea Universităţii „Alexandru Ioan Cuza”  este să contribuie la dezvoltarea şi răspândirea cunoaşterii,să educe pentru exercitarea de profesii şi funcţii, în spiritul Adevărului şi Binelui,să păstreze şi să extindă expresiile creaţiei ştiinţifice şi culturale,să promoveze ideile societăţii libere în scopul dezvoltării.",
+     "shortFaculties":[
+        "Facultatea de  informatica",
+        "Facultatea de matematica",
+        "Facultatea de fizica",
+        "Facultatea de economie si administrarea afacerilor"
+   ],
+   "city":"Iasi"
+    },
+    {"displayName":"Universitatea Politehnica din Bucuresti",
+     "desc":"Universitatea POLITEHNICA din București (U.P.B.) își asumă misiunea de a pregăti specialiști în diferite domenii tehnice, capabili de a utiliza cunoștințe științifice, tehnice și cultural-umaniste valoroase, de a contribui la progresul tehnologic, economic și social-cultural al societății românesti și al lumii contemporane. UPB asigură realizarea unui învățământ de performanță, dezvoltat și perfecționat printr-o complexă activitate de cercetare, continuând tradiția Școlii Politehnice bucureștene, conform exigențelor și cu mijloacele oferite de societatea modernă informațională. Ea își propune să creeze noul profil de universitate tehnică, ce promovează forme de pregătire adaptate cerințelor unei societăți în plină competiție, supusă procesului de integrare în Comunitatea Europeană și internațională.",
+     "shortFaculties":[
+        "Facultatea de Automatica si Calculatoare",
+        "Faculatea de Inginerie Industriala Si Robotica",
+        "Facultatea de Inginerie Mecanica si Mecatronica",
+        "Facultatea de Stiinte Aplicate"
+   ],
+   "city":"Bucuresti"
+    }
+]
