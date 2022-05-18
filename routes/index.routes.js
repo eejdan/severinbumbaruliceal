@@ -1,4 +1,4 @@
-const RootViewController = new (require('../controllers/RootViewController'))();
+//const RootViewController = new (require('../controllers/RootViewController'))();
 
 
 
