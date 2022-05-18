@@ -17,7 +17,7 @@ class CityService {
             console.log(`Nu s-a putut livra orasul ${error}`);
         }
     }
-    static async updateCityRouteHits(newHits) {
+    static async updateCityUseHits(newHits) {
         try {
             const updateResponse = await City.updateOne();
             return updateResponse;
@@ -36,4 +36,4 @@ class CityService {
     }
 }
 
-module.export = CityService
+module.exports = CityService
