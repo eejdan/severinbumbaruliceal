@@ -60,4 +60,8 @@ const universitySchema = new mongoose.Schema({
     collection: 'universitySchema'
 });
 
+universitySchema.index({ 
+    displayName: 'text' 
+})
+
 module.exports = mongoose.model('University', universitySchema);
