@@ -17,7 +17,10 @@
     display: block;
 }
 .index-first-section > .middle-flex {
-    display: block;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 .index-first-section > .bottom-flex {
     display: flex;
@@ -34,4 +37,26 @@
 }
 .index-first-section > .bottom-flex > .secondary-flex > * {
     margin: 0px 12px;
+}
+.landing-buttons{
+    text-decoration: none;
+    border:none;
+    color: #333447;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 13px 40px ;
+    border-radius: 25px;
+    background-color: #ffc845;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.middle-flex-title{
+
+}
+.middle-flex.desc{
+    
 }
