@@ -16,7 +16,7 @@
 .header { 
     width: 100%;
     display: grid;
-    grid-template-columns: 15% auto 15%;
+    grid-template-columns: 30% auto 30%;
     
     padding: 0px;
 
@@ -24,7 +24,6 @@
     font-weight: 700;
     font-style: italic;
     color: #52565E;
-    transition: font-size 1s;
 }
 .action-select-wrapper {
     height: 100%;
@@ -51,7 +50,7 @@
 
     display: flex;
     font-family: 'Exo', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-style: italic;
     color: #333447;
     align-items: baseline;
@@ -74,8 +73,14 @@
     justify-content: right;
     border-radius: 25px;
     display: flex;
-    width: 100;
+    width: 200px;
     font-family:'Exo', sans-serif; 
+    font-weight: 500;
+    padding: 10px;
+    text-indent: 3px;
+    font-style: italic;
+    font-size: 0.65em;
+    border:1px solid #caccd1 ;
 }
 .user-actions > div {
     padding: 0;
