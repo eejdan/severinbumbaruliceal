@@ -2,8 +2,8 @@
 class RootViewController {
     constructor() {
         this.popularUniversitiesList = [];
-        updatePopularUniversitiesList();
-        setInterval(updatePopularUniversitiesList,  (10*60*1000));
+        this.updatePopularUniversitiesList();
+        setInterval(this.updatePopularUniversitiesList,  (10*60*1000));
     }
     static async updatePopularUniversitiesList() {
         return;
