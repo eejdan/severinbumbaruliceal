@@ -1,0 +1,37 @@
+.content-wrapper {
+    padding: 0;
+    margin: 0;
+}
+.landing-section {
+    width: 100vw;
+    height: 100vh;
+}
+.index-first-section {
+    display: grid;
+    grid-template-rows: 12% auto 20%;
+}
+.index-first-section > * {
+    width: 100%;
+}
+.index-first-section > .top-flex {
+    display: block;
+}
+.index-first-section > .middle-flex {
+    display: block;
+}
+.index-first-section > .bottom-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.index-first-section > .bottom-flex > .secondary-flex {
+    width: max-content;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.index-first-section > .bottom-flex > .secondary-flex > * {
+    margin: 0px 12px;
+}

@@ -1,4 +1,5 @@
 .header-wrapper {
+    position: fixed;
     flex: 0 1 auto;
     --bar-first: #067BC2;
     --bar-second: #84BCDA;
