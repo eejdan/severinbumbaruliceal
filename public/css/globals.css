@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body { 
+    margin: 0;
+    padding: 0;
+    width: 100vw !important;
+    height: 100vh !important;
+    min-height: 50vh;
+    font-family: 'Exo', sans-serif;
+    overflow-x: hidden;
+}
+.body-wrapper {
+    min-height: 100vh !important;
+    width: 100vw !important;
+    display: flex;
+    flex-flow: column;
+}
+.content-wrapper {
+    flex: 1 1 auto;
+}
+.content-wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+.unselectable {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+.notresizeable {
+    resize: none;
+}

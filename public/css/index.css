@@ -1,0 +1,120 @@
+
+.landing-section {
+    width: 100vw;
+    height: 100vh;
+}
+.index-first-section {
+
+    max-height: 100vh;
+    max-width: 100vw !important;
+    display: grid;
+    grid-template-rows: 25% auto 20%;
+}
+.index-first-section > * {
+    width: 100%;
+}
+.imgabs1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -6;
+    height: auto;
+    width: 100%;
+    overflow-clip-margin: 100px;
+}
+.imgabs2 {
+    
+    left: 0;
+    top: 0;
+    z-index: 0;
+    height: auto;
+    width: 100%;
+    overflow-clip-margin: 100px;
+}
+.imgcover1{
+    position: absolute;
+    z-index: -5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255,255,255,0.36);
+}
+.index-first-section > .top-flex {
+    display: block;
+}
+.index-first-section > .middle-flex {
+    color: #333447;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.middle-flex-title{
+    font-size: 3em;
+    text-indent: 13vw;
+    font-weight: 600;
+    font-style: italic;
+}
+.middle-flex-desc{
+    font-size: 2em;
+    font-weight: 400;
+    font-style: italic;
+    text-indent: 10vw;
+}
+.index-first-section > .bottom-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.index-first-section > .bottom-flex > .secondary-flex {
+    width: max-content;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.index-first-section > .bottom-flex > .secondary-flex > * {
+    margin: 0px 12px;
+}
+.landing-buttons{
+    text-decoration: none;
+    border:none;
+    color: #181821;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 13px 40px ;
+    border-radius: 25px;
+    background-color: #ffc845;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.section-wrapper{
+    height: 500px;
+    width: 100vw;
+}
+.section-component{
+    width: 100%;
+    height: 100%;
+}
+.Col{
+    height: 100%;
+}
+.Col3 {
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+    border:1px solid grey;
+}
+.col-content-wrapper >*{
+    width: 100%;
+    align-items:center;
+    
+}
+.col-content-wrapper{
+    width: 100%;
+}
