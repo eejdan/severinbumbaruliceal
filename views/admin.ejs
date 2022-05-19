@@ -1,15 +1,63 @@
 <!doctype html>
 <html lang="ro">
+
 <head>
     <%- include('./partials/head') %>
-    <link rel="stylesheet" href="/css/admin.css"> 
-    <title>PlecLaFacultate.ro</title>
+        <link rel="stylesheet" href="/css/admin.css">
+        <title>PlecLaFacultate.ro</title>
 </head>
+
 <body>
-    <%- include('./partials/header', { adminLoggedIn: true }) %> 
-    <div class="content-wrapper">
-        test
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <%- include('./partials/header', { adminLoggedIn: true }) %>
+        <div class="content-wrapper">
+            <div><button onClick=""></button></div>
+            <div id="admin-section-grid-wrapper" class="admin-section-grid-wrapper">
+                <div class="section-control-wrapper">
+                    <div class="section-control-flex">
+                        <button>&lt;</button>
+                        <div class="section-control-current-area">Coloana 1 Titlu</div>
+                        <button>&gt;</button>
+                    </div>
+                    <textarea class="section-control-area notresizeable">test</textarea>
+                </div>
+                <div class="section-build">
+                    <div class="sc-wrapper">
+                        <div class="sc">
+                            <div class="sc-col-triple sc-col">
+                                <div class="col-content-wrapper">
+                                    <div id="${cid}-1" class="col-tt">
+                                        Placeholder
+                                    </div>
+                                    <div id="${cid}-2" class="col-stt">
+                                        Placeholder
+                                    </div>
+                                </div>
+                                <div class="col-content-wrapper">
+                                    <div id=${cid}-"3" class="col-tt">Placeholder
+                                    </div>
+                                    <div id="${cid}-4" class="col-stt">Placeholder
+                                    </div>
+                                </div>
+                                <div class="col-content-wrapper">
+                                    <div id="${cid}-5" class="col-tt">Placeholder
+                                    </div>
+                                    <div id="${cid}-6" class="col-stt">Placeholder
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-persistence-flex">
+
+                </div>
+            </div>
+        </div>
+
+        <script src="/js/testcomp.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>

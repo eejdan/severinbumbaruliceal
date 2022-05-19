@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 50vh;
+    font-family: 'Exo', sans-serif;
 }
 .body-wrapper {
     min-height: 100vh !important;
@@ -25,4 +26,7 @@ body {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
+}
+.notresizeable {
+    resize: none;
 }

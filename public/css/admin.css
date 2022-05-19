@@ -1,0 +1,19 @@
+.admin-section-grid-wrapper {
+    display: grid;
+    padding: 0 40px;
+    grid-template-columns: 40% auto;
+}
+.admin-section-grid-wrapper > div {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.section-control-wrapper {
+
+}
+.section-control-wrapper > textarea {
+    min-width: 50%;
+}
+.section-build {
+    
+}
