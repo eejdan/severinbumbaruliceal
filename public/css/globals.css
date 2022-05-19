@@ -4,8 +4,11 @@
 body { 
     margin: 0;
     padding: 0;
+    width: 100vw !important;
+    height: 100vh !important;
     min-height: 50vh;
     font-family: 'Exo', sans-serif;
+    overflow-x: hidden;
 }
 .body-wrapper {
     min-height: 100vh !important;

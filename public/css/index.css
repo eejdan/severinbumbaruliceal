@@ -4,29 +4,63 @@
     height: 100vh;
 }
 .index-first-section {
-    background-image: url('../img/landing/landing1.jpg');
-    height: 100vh;
+
+    max-height: 100vh;
+    max-width: 100vw !important;
     display: grid;
-    grid-template-rows: 12% auto 20%;
+    grid-template-rows: 25% auto 20%;
 }
 .index-first-section > * {
     width: 100%;
+}
+.imgabs1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -6;
+    height: auto;
+    width: 100%;
+    overflow-clip-margin: 100px;
+}
+.imgabs2 {
+    
+    left: 0;
+    top: 0;
+    z-index: 0;
+    height: auto;
+    width: 100%;
+    overflow-clip-margin: 100px;
+}
+.imgcover1{
+    position: absolute;
+    z-index: -5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255,255,255,0.36);
 }
 .index-first-section > .top-flex {
     display: block;
 }
 .index-first-section > .middle-flex {
-    
+    color: #333447;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: flex-start;
 }
 .middle-flex-title{
-    
+    font-size: 3em;
+    text-indent: 13vw;
+    font-weight: 600;
+    font-style: italic;
 }
-.middle-flex.desc{
-    
+.middle-flex-desc{
+    font-size: 2em;
+    font-weight: 400;
+    font-style: italic;
+    text-indent: 10vw;
 }
 .index-first-section > .bottom-flex {
     display: flex;
@@ -47,7 +81,7 @@
 .landing-buttons{
     text-decoration: none;
     border:none;
-    color: #333447;
+    color: #181821;
     font-family: 'Exo', sans-serif;
     font-weight: 500;
     font-size: 1.1em;
