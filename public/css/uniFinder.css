@@ -1,0 +1,22 @@
+.uni-search-container{
+    width: 100%;
+    height: fit-content;
+    flex-flow: nowrap ;
+}
+.uni-search-topface{
+justify-content: flex-end;
+flex:0 1 auto;
+
+}
+.uni-search-interface{
+flex:0 1 auto;
+display: grid;
+grid-template-columns: 25% auto;
+}
+.filters-wrapper{
+
+}
+.results-wrapper{
+display: flex;
+flex-flow: row;
+}
