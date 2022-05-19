@@ -2,7 +2,7 @@
     <div class='header unselectable'>
         <div class='action-select-wrapper'>
             <div class='action-select'>
-                <% if(typeof adminLoggedIn != 'undefined') { %>
+                <% if(locals.adminLoggedin) { %>
                 <form method="post" action="/admin/logout">
                     <button type="submit">Logout</button>
                 </form>
