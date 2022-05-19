@@ -57,7 +57,7 @@ const universitySchema = new mongoose.Schema({
         ref: 'faculties'
     }]
 }, {
-    collection: 'universitySchema'
+    collection: 'universities'
 });
 
 universitySchema.index({ 

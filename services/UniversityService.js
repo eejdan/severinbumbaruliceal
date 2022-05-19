@@ -47,7 +47,7 @@ class UniversityService {
             console.log(`Nu s-a putut livra universitatea in urma cautarii dupa nume ${error}`)
         }
     }
-    static async getUniversityByPartialName(universityPartialName) {
+    static async getUniversitiesByPartialName(universityPartialName) {
         try {
             const universityResponse = await University.find({
                 $text: { $search: universityPartialName }

@@ -2,6 +2,11 @@
     <div class='header unselectable'>
         <div class='action-select-wrapper'>
             <div class='action-select'>
+                <% if(typeof adminLoggedIn != 'undefined') { %>
+                <form method="post" action="/admin/logout">
+                    <button type="submit">Logout</button>
+                </form>
+                <% } %>
             </div>
         </div>
         <div class='title-wrapper'>
