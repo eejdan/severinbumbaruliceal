@@ -46,7 +46,7 @@ app.use('/admin', adminRoute)
 app.get('/AboutUs', MetaController.getAboutUs);
 app.get('/ContactUs', MetaController.getContactUs);
 
-app.get('/uni', (req, res) => { res.render('uniFinder')})
+app.get('/uniFinder', (req, res) => { res.render('uniFinder')})
 app.use('/', indexRoute);
 
 app.listen(8080);
