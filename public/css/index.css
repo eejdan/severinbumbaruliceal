@@ -94,3 +94,27 @@
     
 
 }
+.section-wrapper{
+    height: 500px;
+    width: 100vw;
+}
+.section-component{
+    width: 100%;
+    height: 100%;
+}
+.Col{
+    height: 100%;
+}
+.Col3 {
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+    border:1px solid grey;
+}
+.col-content-wrapper >*{
+    width: 100%;
+    align-items:center;
+    
+}
+.col-content-wrapper{
+    width: 100%;
+}

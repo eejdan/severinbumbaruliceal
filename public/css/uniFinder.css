@@ -4,19 +4,47 @@
     flex-flow: nowrap ;
 }
 .uni-search-topface{
-justify-content: flex-end;
-flex:0 1 auto;
+    min-height: 100px;
+    display: flex;
+    padding: 6vh 10vw;
+    justify-content: flex-end;
+    flex:0 1 auto;
 
 }
+.uni-search-box{
+    justify-content: right;
+    border-radius: 25px;
+    display: flex;
+    width: 200px;
+    font-family:'Exo', sans-serif; 
+    font-weight: 500;
+    padding: 10px;
+    text-indent: 3px;
+    font-style: italic;
+    font-size: 0.65em;
+    border:1px solid #caccd1 ;
+    
+}
 .uni-search-interface{
+    padding: 0 10vw;
 flex:0 1 auto;
 display: grid;
 grid-template-columns: 25% auto;
 }
 .filters-wrapper{
-
+    border: 1px solid #ebebeb;
+    min-height: 30vh;
 }
 .results-wrapper{
-display: flex;
-flex-flow: row;
+    margin: 0 0 0 1vw;
+    padding: 0 5vw;
+    display: flex;
+    flex-flow: row;
+    border: 1px solid #ebebeb;
+    min-height: 30vh;
+
 }
+.flexbox-with-select{
+
+}
+
